@@ -1,0 +1,60 @@
+#contenedor {
+    margin: 10px 10px 10px 10px ;
+    padding: 5px;
+    width: 700px;
+    border-style: groove;
+    background-color: gray ;
+  }
+
+
+#menu {
+  float: left;
+  width: 19%;
+  border-style: groove;
+  background-color: aquamarine;
+}
+
+#cabecera {
+    float: center;
+    border-style: groove;
+    background-color: red;
+}
+
+#contenido {
+  float: right;
+  width: 80%;
+  border-style: groove;
+  background-color: #FCC726;
+}
+body{
+
+    margin: 5px 10px 5px 10px ;
+
+    /*background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+#pie {
+  clear: both;
+  border-style: groove;
+  background-color: blanchedalmond;
+}
+
+h1, h2, h3{
+
+    color: #8a8e27;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p{
+text-align: justify
+
+}
+
+img{
+    width: 200px ;
+    height: 200px ;
+    object-fit: cover;
+}
